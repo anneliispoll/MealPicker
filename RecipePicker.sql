@@ -18,5 +18,3 @@ INSERT INTO RecipePicker (RecipeName, breakfast, lunch, dinner, winter, spring, 
 VALUES ('Lasagne',0,1,1,1,1,0,1, 'https://www.bbc.co.uk/food/recipes/lasagne_22392');
 INSERT INTO RecipePicker (RecipeName, breakfast, lunch, dinner, winter, spring, summer, autumn, instructions)
 VALUES ('Chiken Kiev',0,1,1,1,1,1,1, 'https://www.bbc.co.uk/food/recipes/classic_chicken_kiev_16620');
-
-SELECT * FROM RecipePicker

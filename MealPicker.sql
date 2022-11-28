@@ -34,8 +34,3 @@ INSERT INTO MealPicker (MealName, breakfast, lunch, dinner, winter, spring, summ
 VALUES ('Hamburger',0,1,1,0,1,1,0);
 INSERT INTO MealPicker (MealName, breakfast, lunch, dinner, winter, spring, summer, autumn)
 VALUES ('Casserole',0,1,1,1,0,0,0);
-
-SELECT * FROM MealPicker;
-DROP TABLE MealPicker;
-
-SELECT * FROM MealPicker WHERE dinner=true AND summer = 1 order by rand() limit 1;
